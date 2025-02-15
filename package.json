@@ -1,0 +1,24 @@
+{
+	"name": "grok-re",
+	"version": "0.0.1",
+	"description": "Grok reverse engineering",
+	"keywords": [],
+	"license": "MIT",
+	"author": "AzureFlow",
+	"type": "module",
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"lint": "biome lint",
+		"start": "node src/app.js"
+	},
+	"dependencies": {
+		"https-proxy-agent": "^7.0.6",
+		"node-fetch": "^3.3.2",
+		"secp256k1": "^5.0.1",
+		"tough-cookie": "^5.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/secp256k1": "^4.0.6"
+	}
+}
